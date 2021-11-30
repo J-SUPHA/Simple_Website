@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* header styles*/
+.Title{
+    position: relative;
+
+}
+.TopLogo{
+    display:flex;
+    justify-content: center;
+
+}
+.details{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:1px;
+
+}
+
+/* nav styles */
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;/* this smakes sure that the contect takes up the entire length of the page*/
+    padding: 19px; /* updown distance that each text strip takes*/
+    background-color:black;
+}
+.navlink{
+    height: 26px;
+    border-bottom: 1 px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.navlink a {
+    color:white;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.navlink:hover{
+    border-bottom: 1px solid grey;
+}
+
+.navlink a:hover {
+    color: grey
+}
+
+/* Portfolio styles*/
+
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.piece1{
+    background-image: url("Images/Marble.PNG");
+    padding: 80px;
+    text-align: center;
+    color:darkslategray
+}
+.piece2{
+    background-image: url("Images/Wood.PNG");
+    padding: 80px;
+    text-align: center;
+    color:ivory
+}
+.piece3{
+    background-image: url("Images/Terracotta.PNG");
+    padding: 80px;
+    text-align: center;
+    color:white
+}
+/* About us*/
+.desc{
+    text-align: center;
+}
+
+/* Explore Categories */
+
+.EX1{
+    padding: 100px;
+    text-align: center;
+}
